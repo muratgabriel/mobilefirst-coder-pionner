@@ -1,0 +1,62 @@
+@mixin flex($display, $direction, $align, $justify, $gap, $wrap, $overflow, $margin) {
+    display: $display;
+    flex-direction: $direction;
+    align-items: $align;
+    justify-content: $justify;
+    gap: $gap;
+    flex-wrap: $wrap;
+    overflow: $overflow;
+    margin: $margin;
+}
+
+@mixin card($height, $width, $display, $direction, $align, $justify, $background, $radius) {
+    height: $height;
+    width: $width;
+    display: $display;
+    direction: $direction;
+    align-items: $align;
+    justify-content: $justify;
+    background-color: $background ;
+    border-radius: $radius;
+}
+
+@mixin grid($col, $row, $gap, $areas, $justify, $align) {
+    display: grid;
+    grid-template-columns: $col;
+    grid-row: $row;
+    gap: $gap;
+    grid-template-areas: $areas;
+    justify-content: $justify;
+    align-items: $align;
+}
+
+@mixin card-grid($display, $direction, $align, $color, $radius, $margin) {
+    display: $display;
+    flex-direction: $direction;
+    align-items: $align;
+    background-color: $color;
+    border-radius: $radius;
+    margin: $margin;
+}
+
+@mixin titulo-secundario($color, $font, $size, $align, $padding, $decoration) {
+    color: $color;
+    font-family: $font-principal;
+    font-size: $size;
+    text-align: $align;
+    padding: $padding;
+    text-decoration: $decoration;
+}
+
+@mixin titulo-alternativo($color, $font, $size) {
+    color: $color;
+    font-family: $font-secundaria;
+    font-size: $size;
+}
+
+@mixin caracteristicas-items ($color, $size, $margin, $font){
+    color: $color;
+    font-size: $size;
+    margin: $margin;
+    font-family: $font-secundaria;
+}

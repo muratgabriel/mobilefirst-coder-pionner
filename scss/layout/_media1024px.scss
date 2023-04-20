@@ -1,0 +1,124 @@
+@media(min-width:1024px) {
+    // main-index
+    .main-index {
+        section div {
+            h1 {
+                font-size: 32px;
+            }
+
+            p {
+                font-size: 22px;
+            }
+        }
+
+        section {
+            h2 {
+                font-size: 27px;
+            }
+
+            div {
+                h3 {
+                    font-size: 24px;
+                }
+
+                img {
+                    width: 250px;
+                    height: 100px;
+                }
+            }
+        }
+    }
+
+    // main-nuestros-productos
+    .main-nuestros-productos {
+        h1 {
+            font-size: 32px;
+        }
+
+        section {
+            div {
+                h2 {
+                    font-size: 27px;
+                }
+
+                a img:hover{
+                    width: 400px;
+                    height: 400px;
+                    margin: 10px;
+                    background-color: #D21312;
+                }
+            }
+        }
+    }
+
+    // main-mixer-reproductores
+    .main-mixer-reproductores {
+        h1 {
+            font-size: 32px;
+        }
+
+        section {
+            h2 {
+                font-size: 27px;
+            }
+
+            .contenedor-mixer-reproductores {
+
+                .card-productos {
+                    display: flex;
+                    flex-direction: column;
+                    align-items: center;
+                    justify-content: center;
+                    height: 700px;
+                    width: 450px;
+
+                    img {
+                        width: 200px;
+                        height: 250px;
+                    }
+
+                    h3 {
+                        font-size: 24px;
+                    }
+
+                    ul li {
+                        font-size: 22px;
+                    }
+                }
+            }
+        }
+    }
+
+    // main-auriculares
+    .main-auriculares {
+        h1 {
+            font-size: 32px;
+        }
+
+        section {
+            @include grid(repeat(3, 1fr), 2fr, 10px, "auricular-uno auricular-dos auricular-tres", none, none);
+
+            .card-productos {
+
+                img {
+                    width: 150px;
+                    height: 150px;
+
+                }
+
+                h3 {
+                    font-size: 24px;
+                }
+
+                ul li {
+                    font-size: 22px;
+                }
+            }
+        }
+
+    }
+
+    // main-tiendas-contacto
+    
+
+}

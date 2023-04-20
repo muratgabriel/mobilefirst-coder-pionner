@@ -1,0 +1,173 @@
+@media(min-width:768px) {
+
+    // main-index
+    .main-index {
+        section div {
+            h1 {
+                font-size: 30px;
+                margin: 10px;
+            }
+
+            p {
+                font-size: 20px;
+                margin: 5px;
+                letter-spacing: 3px;
+            }
+        }
+
+        section {
+            h2 {
+                font-size: 25px;
+                margin: 30px;
+            }
+
+            div {
+                display: flex;
+                flex-direction: row;
+                justify-content: space-evenly;
+                flex-wrap: wrap;
+                overflow: hidden;
+                padding: 15px;
+
+                div {
+                    display: flex;
+                    flex-direction: column;
+                    align-items: center;
+                }
+
+                h3 {
+                    font-size: 22px;
+                }
+
+                img {
+                    width: 300px;
+                    height: 120px;
+                }
+            }
+        }
+    }
+
+    // main-nuestros-productos
+    .main-nuestros-productos {
+        h1 {
+            font-size: 30px;
+            margin: 10px;
+        }
+
+        section {
+            display: flex;
+            flex-direction: row;
+            flex-wrap: wrap;
+            overflow: hidden;
+            justify-content: space-evenly;
+
+            div {
+                h2 {
+                    font-size: 25px;
+                    margin: 30px;
+                }
+
+                a img {
+                    width: 300px;
+                    height: 300px;
+                    margin: 5px;
+                }
+            }
+        }
+    }
+
+    // main-mixer-reproductores
+    .main-mixer-reproductores {
+        h1 {
+            font-size: 30px;
+            margin: 10px;
+        }
+
+        section {
+            h2 {
+                font-size: 25px;
+                margin: 30px;
+            }
+
+            .contenedor-mixer-reproductores {
+                @include flex(flex, row, none, center, 10px, wrap, hidden, 10px);
+
+                .card-productos {
+                    display: flex;
+                    flex-direction: column;
+                    align-items: center;
+                    justify-content: center;
+                    height: 600px;
+                    width: 350px;
+
+                    img {
+                        width: 150px;
+                        height: 200px;
+                    }
+
+                    h3 {
+                        @include titulo-alternativo(black, $font-secundaria, 22px);
+                    }
+
+                    ul li {
+                        @include caracteristicas-items (white, 18px, 5px, $font-secundaria);
+                    }
+                }
+            }
+        }
+    }
+    // main-tienda-contactos
+    .main-tiendas-contacto{
+        h1{
+            font-size: 30px;
+            margin: 10px;
+        }
+        div{
+            display: flex;
+            flex-direction: column;
+            section{
+                .tienda-hijo{@include card(800px, 700px, flex, column, center, center, #6D8B74, 5px);
+div{
+    h2{
+        font-size: 25px;
+        
+    }
+    h3{
+        font-size: 22px;
+    }
+    p{
+        font-size: 20px;
+        margin: 5px;
+        letter-spacing: 3px;
+    }
+    img{
+        width: 25x;
+        height: 25px;
+    }
+    iframe{
+        width: 450px;
+        height: 200px;
+    }
+}
+                }
+                .contacto-hijo{
+                    div{
+                        h2{
+                            font-size: 25px;
+                        }
+                        p{
+                            font-size: 20px;
+                            margin: 5px;
+                            letter-spacing: 3px;
+                        }
+                        .mb-3 {}
+                    }
+                
+
+                }
+            }
+        }
+    }
+
+    
+}

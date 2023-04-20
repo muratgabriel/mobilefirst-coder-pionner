@@ -1,0 +1,39 @@
+.main-auriculares {
+    h1 {
+        background-color: black;
+        color: white;
+        font-family: $font-principal;
+        font-size: 22px;
+        margin: 10px;
+        text-align: center;
+        word-spacing: 5px;
+    }
+
+    section {
+        @include grid(1fr, repeat(1, 1fr), 10px,
+            "auricular-uno"
+            "auricular-dos"
+            "auricular-tres"
+            , none, none);
+
+        .card-productos {
+            @include card-grid(flex, column, center, #6D8B74, 5px,10px);
+
+
+
+            img {
+                width: 150px;
+                height: 150px;
+
+            }
+
+            h3 {
+                @include titulo-alternativo(black, $font-secundaria, 17px);
+            }
+
+            ul li {
+            @include caracteristicas-items (white, 16px, 5px, $font-secundaria);
+            }
+        }
+    }
+}

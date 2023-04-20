@@ -1,0 +1,74 @@
+.main-tiendas-contacto {
+    h1 {
+        background-color: black;
+        color: white;
+        font-family: $font-principal;
+        font-size: 22px;
+        margin: 10px;
+        text-align: center;
+        word-spacing: 5px;
+    }
+
+    div {
+        @include flex(flex, column, center, none, none, wrap, hidden, 5px);
+    }
+
+    .tienda-hijo {
+
+        @include card(600px, 300px, flex, column, center, center, #6D8B74, 5px);
+
+        div {
+            h2 {
+                color: black;
+                font-family: 'Bree Serif', serif;
+                text-align: center;
+                font-size: 20px;
+                padding: 5px;
+                text-decoration: underline;
+            }
+
+            h3 {
+                @include titulo-alternativo(black, $font-secundaria, 17px);
+            }
+
+            p {
+                font-size: 16px;
+                margin: 10px;
+                font-family: 'Abhaya Libre', serif;
+                color: white;
+            }
+
+            img {
+                width: 15px;
+                height: 15px;
+            }
+
+            iframe {
+                width: 250px;
+                height: 100px;
+            }
+
+        }
+    }
+    .contacto-hijo{
+        @include card(none, none, flex, column, center, center, #6D8B74, 5px);
+        h2{
+            color: black;
+            font-family: 'Bree Serif', serif;
+            text-align: center;
+            font-size: 20px;
+            padding: 5px;
+            text-decoration: underline;
+        }
+        p{
+            font-size: 16px;
+            margin: 10px;
+            font-family: 'Abhaya Libre', serif;
+            color: white;
+        }
+        
+
+    }
+
+
+}

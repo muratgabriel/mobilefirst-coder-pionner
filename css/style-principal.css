@@ -1,0 +1,577 @@
+/* fuentes */
+/* font-family: 'Bree Serif', serif; */
+/* font-family: 'Abhaya Libre', serif; */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* header */
+ header {
+    background-color: #D0C9C0;
+    width: 100%;
+} */
+.logo-pionner {
+    width: 250px;
+    ;
+    height: 50px;
+    ;
+    border-radius: 5px;
+}
+/* navegador */
+.nav-wrapper{
+    width: 100%;
+    margin: 0 auto;
+    padding: 1rem;
+}
+nav{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1rem 1.5rem ;
+    border-radius: 0.4rem;
+}
+.menu ul{
+    list-style: none;
+    display: flex;
+    gap: 2rem;
+    
+}
+.menu ul li a{
+    text-decoration: none;
+    color: white;
+    font-size: 20px;
+    background-color: black;
+    border-radius: 7px;
+}
+nav #toggle, nav label{
+    display: none;
+    }
+
+/* main */
+body {
+    background-color: #EFEAD8;
+    width: 100%;
+    height: 100vh;
+}
+
+.secundario-color {
+    background-color: #6D8B74;
+    width: 100%;
+}
+
+.img-principal {
+    width: 100%;
+    height: 334px;
+}
+
+h1 {
+    background-color: black;
+    color: white;
+    font-family: 'Bree Serif', serif;
+    font-size: 35px;
+    margin: 20px;
+    text-align: center;
+    word-spacing: 10px;
+}
+
+div p {
+    font-family: 'Abhaya Libre', serif;
+    color: black;
+    font-size: 20px;
+}
+
+h2 {
+    color: black;
+    font-family: 'Bree Serif', serif;
+    font-size: 30px;
+    margin: 30px;
+    text-align: center;
+}
+
+div h3 {
+    color: black;
+    font-family: 'Bree Serif', serif;
+    font-size: 20px;
+}
+.detalles-titulos{
+    text-decoration: underline;
+}
+
+.estilo-items-auricular li {
+    color: white;
+    font-family: 'Abhaya Libre', serif;
+    font-size: 18px;
+}
+.estilo-items{
+    color: white;
+    font-family: 'Abhaya Libre', serif;
+    font-size: 18px;
+}
+
+
+.img-logo-marcas {
+    width: 291px;
+    height: 69px;
+    ;
+}
+
+.contenedor-marcas {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    overflow: hidden;
+    padding: 15px;
+}
+
+.logo-marca-productos {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 300px;
+    height: 100px;
+
+}
+
+.img-nuestrosproductos {
+    width: 400px;
+    ;
+    height: 400px;
+    ;
+}
+
+.nuestros-productos {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    overflow: hidden;
+    justify-content: space-evenly;
+}
+
+.nuestros-productos-auriculares-mixer {
+    display: flex;
+    flex-direction: column;
+    width: 500px;
+    height: 500px;
+    align-items: center;
+
+
+}
+
+.productos-mixer-reproductores {
+    width: 150px;
+    height: 200px;
+    ;
+}
+
+.productos-auriculares {
+    width: 150px;
+    height: 150px;
+}
+
+.contenedor-productos {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    gap: 50px;
+    flex-wrap: wrap;
+    overflow: hidden;
+    margin: 20px;
+}
+
+.card-productos {
+    height: 500px;
+    width: 400px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #6D8B74;
+    padding: 20px;
+    border-radius: 5px;
+
+}
+
+.contenedor-auriculares {
+    display: grid;
+    margin: 30px;
+    padding: 30px;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: 1fr;
+    column-gap: 30px;
+    grid-template-areas:
+        "auricular-uno auricular-dos auricular-tres";
+    justify-content: center;
+    align-content: center;
+
+}
+
+.auricular-uno {
+    grid-area: auricular-uno;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #6D8B74;
+    border-radius: 5px;
+}
+
+.auricular-dos {
+    grid-area: auricular-dos;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #6D8B74;
+    border-radius: 5px;
+
+}
+
+.auricular-tres {
+    grid-area: auricular-tres;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #6D8B74;
+    border-radius: 5px;
+}
+
+
+
+.item-cards {
+    padding: 20px;
+
+}
+
+.estilo-caracteristicas {
+    font-family: 'Abhaya Libre', serif;
+    color: white;
+}
+
+
+/* contacto tienda */
+
+.contenedor-tienda-contacto {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    gap: 10px;
+
+
+}
+
+.tienda-hijo {
+    background-color: #6D8B74;
+    padding: 10px;
+    margin: 5px;
+    align-items: center;
+    border-radius: 5px;
+
+}
+
+.contacto-hijo {
+    background-color: #6D8B74;
+    padding: 10px;
+    margin: 5px;
+    align-items: center;
+    border-radius: 5px;
+
+
+}
+
+/* footer */
+footer {
+    background-color: #D0C9C0;
+    width: 100%;
+    height: 60px;
+}
+
+
+
+.contactos-pie-pagina {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly
+}
+
+
+/* responsive */
+@media (max-width:1024px) {
+
+    h1 {
+        font-size: 30px;
+        margin: 10px;
+
+    }
+
+    h2 {
+        font-size: 25px;
+        margin: 30px;
+
+    }
+
+    .card-productos {
+        height: 650px;
+        width: 450px;
+
+    }
+    .card-productos img {
+        width: 200px;
+        height: 250px;
+    }
+.estilo-items{
+    line-height: 30px;
+}
+    .estilo-items li {
+        font-size: 25px;
+
+    }
+    .estilo-items-auricular li{
+        line-height: 30px;
+    }
+        .estilo-items-auricular li {
+            font-size: 20px
+            
+        }
+
+        footer {
+            width: 100%;
+            height: 50px;
+    
+        }
+}
+
+@media(max-width:768px) {
+
+    /* navbar */
+     nav .menu{
+        width: 100%;
+        height: 0;
+        overflow: hidden;
+    }
+    .menu ul{
+        flex-direction: column;
+        align-items: center;
+        padding: 0.5rem 0;
+    }
+    nav label{
+        display: inline-flex;
+        color: white;
+        cursor:pointer;
+    }
+    nav #toggle:checked ~ .menu{
+        height: 50vh;
+    } 
+    /* mixer y reproductores */
+    h1 {
+        font-size: 30px;
+        margin: 10px;
+    }
+
+    h2 {
+        font-size: 25px;
+        margin: 30px;
+    }
+
+    .contenedor-productos {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-evenly;
+        gap: 10px;
+        flex-wrap: wrap;
+        overflow: hidden;
+        margin: 10px;
+    }
+
+    .card-productos {
+        height: 610px;
+        width: 350px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        background-color: #6D8B74;
+        border-radius: 5px;
+
+    }
+
+    .card-productos img {
+        width: 150px;
+        height: 200px;
+    }
+.estilo-items{
+    line-height: 30px;
+}
+    .estilo-items li {
+        font-size: 20px;
+
+    }
+
+
+    .contactos-pie-pagina a img {
+        width: 40px;
+        height: 40px;
+
+    }
+
+    /* auriculares */
+    .contenedor-auriculares {
+        grid-template-columns: 1fr;
+        grid-template-rows: repeat(1, 1fr);
+        row-gap: 20px;
+        grid-template-areas:
+            "auricular-uno"
+            "auricular-dos"
+            "auricular-tres"
+        ;
+        margin: 0px;
+
+    }
+.estilo-items-auricular li{
+    line-height: 30px;
+}
+    .estilo-items-auricular li {
+        font-size: 20px
+        
+    }
+
+    .auricular-uno {
+        grid-area: auricular-uno;
+    }
+    .auricular-uno img {
+        width: 220px;
+        height:220px;    }
+
+    .auricular-dos {
+        grid-area: auricular-dos;
+
+    }
+    .auricular-dos img {
+        width: 220px;
+        height:220px;    }
+
+    .auricular-tres {
+        grid-area: auricular-tres;
+
+    }
+    .auricular-tres img {
+        width: 220px;
+        height:220px;    }
+
+       
+
+}
+
+@media (max-width:320px) {
+
+    h1 {
+        font-size: 20px;
+        margin: 10px;
+    }
+
+    h2 {
+        font-size: 18px;
+        margin: 30px;
+    }
+    .img-principal{
+        width: 100%;
+        height: auto;
+    }
+    div p {
+        font-family: 'Abhaya Libre', serif;
+        color: black;
+        font-size: 16px;
+    }
+
+    /* mixer y reproductores */
+    .contenedor-productos {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        gap: 10px;
+        flex-wrap: wrap;
+        overflow: hidden;
+        margin: 10px;
+    }
+
+    .card-productos {
+        height: 550px;
+        width: 300px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        background-color: #6D8B74;
+        border-radius: 5px;
+
+    }
+
+    .card-productos img {
+        width: 150px;
+        height: 200px;
+    }
+.estilo-items{
+    height: 20px;
+}
+
+    .estilo-items li {
+        font-size: 16px;
+    }
+
+/* auriculares */
+    .contenedor-auriculares {
+        grid-template-columns: 1fr;
+        grid-template-rows: repeat(1, 1fr);
+        grid-template-areas:
+            "auricular-uno"
+            "auricular-dos"
+            "auricular-tres"
+        ;
+        margin: 0px;
+
+    }
+
+    .estilo-items-auricular li {
+        font-size: 16px
+    }
+
+    .auricular-uno {
+        grid-area: auricular-uno;
+        font-size: 16px;
+    }
+    .auricular-uno img{
+        width:180px ;
+        height:180px ;
+    }
+
+    .auricular-dos {
+        grid-area: auricular-dos;
+
+
+    }
+    .auricular-dos img{
+        width:160px ;
+        height:160px ;
+    }
+
+    .auricular-tres {
+        grid-area: auricular-tres;
+
+    }
+    .auricular-tres img{
+        width:160px ;
+        height:160px ;
+    }
+
+
+/* footer */
+footer {
+    width: 100%;
+    height: 45px;
+
+}
+
+.contactos-pie-pagina a img {
+    width: 35px;
+    height: 35px;
+
+}
+}

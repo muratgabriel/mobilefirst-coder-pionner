@@ -1,0 +1,63 @@
+.estilo-secundario-fondo {
+    background-color: #6D8B74;
+    width: 100%;
+    height: 100vh;
+}
+
+.main-index {
+    div img {
+        padding: 15px;
+        width: 100%;
+    }
+
+    section div {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        margin: 5px;
+
+        h1 {
+            background-color: black;
+            color: white;
+            font-family: $font-principal;
+            font-size: 22px;
+            margin: 10px;
+            text-align: center;
+            word-spacing: 5px;
+
+        }
+
+        p {
+            font-family: 'Abhaya Libre', serif;
+            color: black;
+            font-size: 16px;
+            margin: 5px;
+            letter-spacing: 1px;
+        }
+    }
+
+    section {
+        h2 {
+            @include titulo-secundario(black, $font-secundaria, 20px, center, 5px, underline);
+        }
+
+        div {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            column-gap: 5px;
+            flex-wrap: wrap;
+            overflow: hidden;
+            padding: 15px;
+
+            h3 {
+                @include titulo-alternativo(black, $font-secundaria, 17px);
+            }
+
+            img {
+                width: 250px;
+                height: 90px;
+            }
+        }
+    }
+}
