@@ -91,6 +91,7 @@ body {
   word-spacing: 5px;
 }
 .main-nuestros-productos section {
+  height: 100vh;
   display: flex;
   flex-direction: column;
   flex-wrap: wrap;
@@ -112,6 +113,7 @@ body {
 .main-nuestros-productos section div a img {
   width: 200px;
   height: 200px;
+  border: 2px solid #000;
 }
 
 body {
@@ -419,7 +421,7 @@ footer div img {
   }
   .main-tiendas-contacto div section .tienda-hijo {
     height: 800px;
-    width: 700px;
+    width: 750px;
     display: flex;
     direction: column;
     align-items: center;

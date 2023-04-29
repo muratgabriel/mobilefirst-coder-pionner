@@ -16,6 +16,7 @@ body {
     }
 
     section {
+        height: 100vh;
         display: flex;
         flex-direction: column;
         flex-wrap: wrap;
@@ -37,6 +38,7 @@ body {
             a img {
                 width: 200px;
                 height: 200px;
+                border : 2px solid #000;
             }
         }
 
