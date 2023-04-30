@@ -38,19 +38,22 @@
 
         section {
             div {
+                width: 450px;
+                height: 630px;
+
                 h2 {
                     font-size: 27px;
                 }
 
                 a {
                     img {
-                        width: 400px;
-                        height: 400px;
-                        border : 2px solid #000;
+                        width: 350px;
+                        height: 350px;
+                        border: 2px solid #000;
 
                         &:hover {
-                            width: 420px;
-                            height: 420px;
+                            width: 370px;
+                            height: 370px;
                             background-color: #D21312;
                         }
                     }

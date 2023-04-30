@@ -25,7 +25,10 @@ body {
             display: flex;
             flex-direction: column;
             align-items: center;
-            justify-content: center;
+            background-color: #AC7D88;
+            border-radius: 5px;
+            margin: 10px;
+
 
             h2 {
                 color: black;
@@ -41,6 +44,13 @@ body {
                 height: 200px;
                 margin: 10px;
                 border : 2px solid #000;
+            }
+            p{
+                font-family: 'Abhaya Libre', serif;
+            color: black;
+            font-size: 16px;
+            margin: 10px;
+            letter-spacing: 1px;
             }
         }
     }
