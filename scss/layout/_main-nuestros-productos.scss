@@ -10,38 +10,38 @@ body {
         color: white;
         font-family: $font-principal;
         font-size: 22px;
-        margin: 10px;
         text-align: center;
         word-spacing: 5px;
+        margin: 10px;
     }
 
     section {
-        height: 100vh;
         display: flex;
         flex-direction: column;
         align-items: center;
-        flex-wrap: wrap;
-        overflow: hidden;
+        justify-content: center;
 
         div {
             display: flex;
             flex-direction: column;
             align-items: center;
+            justify-content: center;
 
             h2 {
                 color: black;
-                font-family: 'Bree Serif', serif;
+                font-family: $font-principal;
                 text-align: center;
                 font-size: 20px;
                 padding: 5px;
                 text-decoration: underline;
             }
+
             a img {
                 width: 200px;
                 height: 200px;
+                margin: 10px;
                 border : 2px solid #000;
             }
         }
-
     }
 }

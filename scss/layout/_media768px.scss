@@ -53,30 +53,32 @@
             font-size: 30px;
             margin: 10px;
         }
-
+    
         section {
-            display: flex;
             flex-direction: row;
-            flex-wrap: wrap;
-            overflow: hidden;
+            align-items: center;
             justify-content: space-evenly;
-
+            margin: 10px;
+    
             div {
+                display: flex;
+                flex-direction: column;
+                align-items: center;
+                justify-content: center;
+    
                 h2 {
                     font-size: 25px;
                     margin: 30px;
                 }
-
+    
                 a img {
                     width: 250px;
                     height: 250px;
-                    margin: 5px;
-                    border : 2px solid #000;
                 }
             }
         }
     }
-
+   
     // main-mixer-reproductores
     .main-mixer-reproductores {
         h1 {
@@ -98,7 +100,7 @@
                     flex-direction: column;
                     align-items: center;
                     justify-content: center;
-                    height: 600px;
+                    height: 620px;
                     width: 350px;
 
                     img {
@@ -117,58 +119,69 @@
             }
         }
     }
+
     // main-tienda-contactos
-    .main-tiendas-contacto{
-        h1{
+    .main-tiendas-contacto {
+        h1 {
             font-size: 30px;
             margin: 10px;
         }
-        div{
+
+        div {
             display: flex;
             flex-direction: column;
-            section{
-                .tienda-hijo{@include card(800px, 750px, flex, column, center, center, #6D8B74, 5px);
-div{
-    h2{
-        font-size: 25px;
-        
-    }
-    h3{
-        font-size: 22px;
-    }
-    p{
-        font-size: 20px;
-        margin: 5px;
-        letter-spacing: 3px;
-    }
-    img{
-        width: 25x;
-        height: 25px;
-    }
-    iframe{
-        width: 450px;
-        height: 200px;
-    }
-}
-                }
-                .contacto-hijo{
-                    div{
-                        h2{
+
+            section {
+                .tienda-hijo {
+                    @include card(800px, 750px, flex, column, center, center, #6D8B74, 5px);
+
+                    div {
+                        h2 {
                             font-size: 25px;
+
                         }
-                        p{
+
+                        h3 {
+                            font-size: 22px;
+                        }
+
+                        p {
                             font-size: 20px;
                             margin: 5px;
                             letter-spacing: 3px;
                         }
-                        .mb-3 {}
+
+                        img {
+                            width: 25x;
+                            height: 25px;
+                        }
+
+                        iframe {
+                            width: 450px;
+                            height: 200px;
+                        }
                     }
-                
+                }
+
+                .contacto-hijo {
+                    div {
+                        h2 {
+                            font-size: 25px;
+                        }
+
+                        p {
+                            font-size: 20px;
+                            margin: 5px;
+                            letter-spacing: 3px;
+                        }
+
+                    }
+
 
                 }
             }
         }
     }
 
-    
+
 }
