@@ -429,11 +429,13 @@ footer div img {
   }
   .main-tiendas-contacto div {
     display: flex;
-    flex-direction: column;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
   }
-  .main-tiendas-contacto div section .tienda-hijo {
-    height: 800px;
-    width: 750px;
+  .main-tiendas-contacto .tienda-hijo {
+    height: 700px;
+    width: 400px;
     display: flex;
     direction: column;
     align-items: center;
@@ -441,32 +443,43 @@ footer div img {
     background-color: #6D8B74;
     border-radius: 5px;
   }
-  .main-tiendas-contacto div section .tienda-hijo div h2 {
+  .main-tiendas-contacto .tienda-hijo div h2 {
     font-size: 25px;
+    margin: 30px;
   }
-  .main-tiendas-contacto div section .tienda-hijo div h3 {
+  .main-tiendas-contacto .tienda-hijo div h3 {
     font-size: 22px;
   }
-  .main-tiendas-contacto div section .tienda-hijo div p {
+  .main-tiendas-contacto .tienda-hijo div p {
     font-size: 20px;
     margin: 5px;
     letter-spacing: 3px;
   }
-  .main-tiendas-contacto div section .tienda-hijo div img {
-    width: 25x;
-    height: 25px;
+  .main-tiendas-contacto .tienda-hijo div img {
+    width: 15px;
+    height: 15px;
   }
-  .main-tiendas-contacto div section .tienda-hijo div iframe {
-    width: 450px;
-    height: 200px;
+  .main-tiendas-contacto .tienda-hijo div iframe {
+    width: 250px;
+    height: 100px;
   }
-  .main-tiendas-contacto div section .contacto-hijo div h2 {
+  .main-tiendas-contacto .contacto-hijo {
+    height: 700px;
+    width: 300px;
+    display: flex;
+    direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color: #6D8B74;
+    border-radius: 5px;
+  }
+  .main-tiendas-contacto .contacto-hijo h2 {
     font-size: 25px;
+    margin: 30px;
   }
-  .main-tiendas-contacto div section .contacto-hijo div p {
-    font-size: 20px;
+  .main-tiendas-contacto .contacto-hijo p {
+    font-size: 19px;
     margin: 5px;
-    letter-spacing: 3px;
   }
 }
 @media (min-width: 1024px) {

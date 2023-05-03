@@ -119,68 +119,68 @@
         }
     }
 
-    // main-tienda-contactos
+    // main-tienda-contactos 
     .main-tiendas-contacto {
         h1 {
             font-size: 30px;
             margin: 10px;
         }
 
+
         div {
             display: flex;
-            flex-direction: column;
+            flex-direction: row;
+            justify-content: space-evenly;
+            align-items: center;
 
-            section {
-                .tienda-hijo {
-                    @include card(800px, 750px, flex, column, center, center, #6D8B74, 5px);
+        }
 
-                    div {
-                        h2 {
-                            font-size: 25px;
+        .tienda-hijo {
 
-                        }
+            @include card(700px, 400px, flex, column, center, center, #6D8B74, 5px);
 
-                        h3 {
-                            font-size: 22px;
-                        }
-
-                        p {
-                            font-size: 20px;
-                            margin: 5px;
-                            letter-spacing: 3px;
-                        }
-
-                        img {
-                            width: 25x;
-                            height: 25px;
-                        }
-
-                        iframe {
-                            width: 450px;
-                            height: 200px;
-                        }
-                    }
+            div {
+                h2 {
+                    font-size: 25px;
+                    margin: 30px;
                 }
 
-                .contacto-hijo {
-                    div {
-                        h2 {
-                            font-size: 25px;
-                        }
-
-                        p {
-                            font-size: 20px;
-                            margin: 5px;
-                            letter-spacing: 3px;
-                        }
-
-                    }
-
-
+                h3 {
+                    font-size: 22px;
                 }
+
+                p {
+                    font-size: 20px;
+                    margin: 5px;
+                    letter-spacing: 3px;
+                }
+
+                img {
+                    width: 15px;
+                    height: 15px;
+                }
+
+                iframe {
+                    width: 250px;
+                    height: 100px;
+                }
+
+            }
+        }
+
+        .contacto-hijo {
+            @include card(700px, 300px, flex, column, center, center, #6D8B74, 5px);
+
+            h2 {
+                font-size: 25px;
+                margin: 30px;
+            }
+
+            p {
+                font-size: 19px;
+                margin: 5px;
+                
             }
         }
     }
-
-
 }
