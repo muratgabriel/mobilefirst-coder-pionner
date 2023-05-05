@@ -10,6 +10,6 @@ La página cuenta con dos secciones una donde se presentan los distintos modelos
 -maquetación: flex box y grid.
 
 # Estado del proyecto
-El proyecto se encuentra en la tercera pre entrega con 5 html y css.
-4 html (index.html, nuestros-productos.html, mixer-reproductores.html, auriculares.html) presentan media query responsive de 1024px/768px/320px.
-El html restante tiendas-contactos.html solo presenta vista mobile y tablet.
+El proyecto se encuentra en la entrega final que incluye 5 html5 y css3.
+Presentan las medias (320px, 768px, 1024px y 1440px), el sitio web se adapta a mobil, tablet y PC.
+Fue realizada de forma (mobile first).

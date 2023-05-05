@@ -57,13 +57,14 @@
         section {
             flex-direction: row;
             align-items: center;
-            justify-content: center;
+            justify-content: space-evenly;
 
             div {
                 display: flex;
                 flex-direction: column;
+                align-items: center;
                 width: 400px;
-                height: 550px;
+                height: 700px;
 
                 h2 {
                     font-size: 25px;
@@ -73,6 +74,12 @@
                 a img {
                     width: 250px;
                     height: 250px;
+                }
+
+                p {
+                    font-size: 20px;
+                    margin: 5px;
+                    letter-spacing: 3px;
                 }
             }
         }
@@ -114,6 +121,26 @@
                     ul li {
                         @include caracteristicas-items (white, 18px, 5px, $font-secundaria);
                     }
+                }
+            }
+        }
+    }
+
+    // main-auriculares
+    .main-auriculares {
+        h1 {
+            font-size: 30px;
+            margin: 10px;
+        }
+
+        section {
+            .card-productos {
+                h2 {
+                    font-size: 25px;
+                }
+
+                ul li {
+                    @include caracteristicas-items (white, 18px, 5px, $font-secundaria);
                 }
             }
         }
@@ -177,9 +204,9 @@
             }
 
             p {
-                font-size: 19px;
+                font-size: 20px;
                 margin: 5px;
-                
+
             }
         }
     }

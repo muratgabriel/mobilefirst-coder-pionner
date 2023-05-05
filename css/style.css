@@ -215,7 +215,7 @@ body {
   width: 150px;
   height: 150px;
 }
-.main-auriculares section .card-productos h3 {
+.main-auriculares section .card-productos h2 {
   color: black;
   font-family: "Abhaya Libre", serif;
   font-size: 17px;
@@ -366,13 +366,14 @@ footer div img {
   .main-nuestros-productos section {
     flex-direction: row;
     align-items: center;
-    justify-content: center;
+    justify-content: space-evenly;
   }
   .main-nuestros-productos section div {
     display: flex;
     flex-direction: column;
+    align-items: center;
     width: 400px;
-    height: 550px;
+    height: 700px;
   }
   .main-nuestros-productos section div h2 {
     font-size: 25px;
@@ -381,6 +382,11 @@ footer div img {
   .main-nuestros-productos section div a img {
     width: 250px;
     height: 250px;
+  }
+  .main-nuestros-productos section div p {
+    font-size: 20px;
+    margin: 5px;
+    letter-spacing: 3px;
   }
   .main-mixer-reproductores h1 {
     font-size: 30px;
@@ -418,6 +424,19 @@ footer div img {
     font-size: 22px;
   }
   .main-mixer-reproductores section .contenedor-mixer-reproductores .card-productos ul li {
+    color: white;
+    font-size: 18px;
+    margin: 5px;
+    font-family: "Abhaya Libre", serif;
+  }
+  .main-auriculares h1 {
+    font-size: 30px;
+    margin: 10px;
+  }
+  .main-auriculares section .card-productos h2 {
+    font-size: 25px;
+  }
+  .main-auriculares section .card-productos ul li {
     color: white;
     font-size: 18px;
     margin: 5px;
@@ -478,7 +497,7 @@ footer div img {
     margin: 30px;
   }
   .main-tiendas-contacto .contacto-hijo p {
-    font-size: 19px;
+    font-size: 20px;
     margin: 5px;
   }
 }
@@ -504,7 +523,7 @@ footer div img {
   }
   .main-nuestros-productos section div {
     width: 450px;
-    height: 630px;
+    height: 750px;
   }
   .main-nuestros-productos section div h2 {
     font-size: 27px;
@@ -518,6 +537,10 @@ footer div img {
     width: 370px;
     height: 370px;
     background-color: #D21312;
+  }
+  .main-nuestros-productos section div p {
+    font-size: 22px;
+    margin: 5px;
   }
   .main-mixer-reproductores h1 {
     font-size: 32px;
@@ -564,6 +587,109 @@ footer div img {
   }
   .main-auriculares section .card-productos ul li {
     font-size: 22px;
+  }
+  .main-tiendas-contacto h1 {
+    font-size: 32px;
+  }
+  .main-tiendas-contacto .tienda-hijo {
+    height: 700px;
+    width: 500px;
+    display: flex;
+    direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color: #6D8B74;
+    border-radius: 5px;
+  }
+  .main-tiendas-contacto .tienda-hijo div h3 {
+    font-size: 22px;
+  }
+  .main-tiendas-contacto .tienda-hijo div p {
+    font-size: 20px;
+    margin: 5px;
+    letter-spacing: 3px;
+  }
+  .main-tiendas-contacto .tienda-hijo div img {
+    width: 15px;
+    height: 15px;
+  }
+  .main-tiendas-contacto .tienda-hijo div iframe {
+    width: 350px;
+    height: 100px;
+  }
+  .main-tiendas-contacto .contacto-hijo {
+    height: 700px;
+    width: 400px;
+    display: flex;
+    direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color: #6D8B74;
+    border-radius: 5px;
+  }
+  .main-tiendas-contacto .contacto-hijo h2 {
+    font-size: 25px;
+    margin: 30px;
+  }
+  .main-tiendas-contacto .contacto-hijo p {
+    font-size: 19px;
+    margin: 5px;
+  }
+}
+@media (min-width: 1440px) {
+  .main-tiendas-contacto h1 {
+    font-size: 32px;
+  }
+  .main-tiendas-contacto div {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+  }
+  .main-tiendas-contacto .tienda-hijo {
+    height: 750px;
+    width: 800px;
+    display: flex;
+    direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color: #6D8B74;
+    border-radius: 5px;
+  }
+  .main-tiendas-contacto .tienda-hijo div h2 {
+    font-size: 27px;
+  }
+  .main-tiendas-contacto .tienda-hijo div h3 {
+    font-size: 24px;
+  }
+  .main-tiendas-contacto .tienda-hijo div p {
+    font-size: 22px;
+    margin: 5px;
+  }
+  .main-tiendas-contacto .tienda-hijo div img {
+    width: 20px;
+    height: 20px;
+  }
+  .main-tiendas-contacto .tienda-hijo div iframe {
+    width: 400px;
+    height: 200px;
+  }
+  .main-tiendas-contacto .contacto-hijo {
+    height: 750px;
+    width: 400px;
+    display: flex;
+    direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color: #6D8B74;
+    border-radius: 5px;
+  }
+  .main-tiendas-contacto .contacto-hijo h2 {
+    font-size: 27px;
+  }
+  .main-tiendas-contacto .contacto-hijo p {
+    font-size: 22px;
+    margin: 5px;
   }
 }
 

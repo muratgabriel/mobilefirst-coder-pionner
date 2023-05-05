@@ -1,0 +1,68 @@
+@media(min-width:1440px){
+     // main-tiendas-contacto
+     .main-tiendas-contacto {
+        h1 {
+            font-size: 32px;
+        }
+
+
+        div {
+            display: flex;
+            flex-direction: row;
+            justify-content: space-evenly;
+            align-items: center;
+
+        }
+
+        .tienda-hijo {
+
+            @include card(750px, 800px, flex, column, center, center, #6D8B74, 5px);
+
+            div {
+                h2 {
+                    font-size: 27px;
+                }
+
+                h3 {
+                    font-size: 24px;
+                }
+
+                p {
+                    font-size: 22px;
+                    margin: 5px;
+                }
+
+                img {
+                    width: 20px;
+                    height: 20px;
+                }
+
+                iframe {
+                    width: 400px;
+                    height: 200px;
+                }
+
+            }
+        }
+
+        .contacto-hijo {
+            @include card(750px, 400px, flex, column, center, center, #6D8B74, 5px);
+
+            h2 {
+                font-size: 27px;
+            }
+
+            p {
+                font-size: 22px;
+                    margin: 5px;
+
+            }
+        }
+    }
+
+
+
+
+
+
+}
